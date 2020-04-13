@@ -6,5 +6,7 @@ Largest Collatz Sequence
 Without comments:
 
 *Result* 
+
 *Максимальное значение последовательности Коллатца обладает число 837799*
+
 *26.865090131759644 sec - elapsed time*
