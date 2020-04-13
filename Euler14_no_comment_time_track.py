@@ -8,6 +8,7 @@
 # Which starting number, under one million, produces the longest chain?
 
 import time
+
 time_start = time.time()
 
 def count_collatz_length(x):
@@ -33,7 +34,8 @@ def find_maximum_collatz_length(max):
             max_number = i
     return max_number
 
-elapsed_time = time.time() - time_start
+
 if __name__=="__main__":
     print("Максимальное значение последовательности Коллатца обладает число {}".format(find_maximum_collatz_length(1000000)))
+    elapsed_time = time.time() - time_start
     print(elapsed_time)
